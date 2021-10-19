@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  
     <title>Document</title>
 </head>
 <body>
-    <div class="nav">
-        <div class="logo"><h1>MY PORTFOLIO</h1></div>    
-        <ul>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <div class="main">
-        <img src="images/animation-youtube-cartoon-animation-6601a37bf5a4412cc926c8efaea3434d.png" alt="#">
-    </div>
-    <div class="container">
-        <h1>Full Stack Web Developer</h1><hr>
-        <div class="list">
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>JQuery</li>
-                <li>AngularJS</li>
-                <li>ReactJS</li>
-                <li class="sp">Bootstrap</li>
-            </ul>
+
+
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Work</a>
+          <a href="#">Contact</a>
         </div>
-        <div class="icon">
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+        <div class="btn menu-btn" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
-    </div>
+      </header>
+  
+      <section class="home" id="home">
+          <div class="container">
+              <div class="home-content">
+                  <div class="main-heading">
+                      <h1>I'm <span>Muhammad Mohid</span></h1>
+                      <h2>I'm <span class="typing"></span></h2>
+                  </div>
+                  <button class="cv">Download CV</button>
+              </div>
+          </div>
+      </section>
+
+      <section class="about" id="about">
+          <div class="container">
+              <div class="title"><h2>About</h2></div>
+              <div class="about-content">
+                <div class="left">
+                    <img src="/assets/images/mypic2.png" alt="">
+                </div>
+                <div class="right">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias tempore ipsum nostrum deleniti fugit, officiis perferendis adipisci velit itaque vero atque optio, in debitis reiciendis totam harum dolores quibusdam quis rerum et. Veniam expedita vel ipsa minus aperiam dolorem earum ullam numquam repudiandae architecto pariatur soluta, odio asperiores ex magnam temporibus. Molestias nesciunt explicabo, natus quam voluptatum perspiciatis et magni. Unde quae consequuntur quidem aliquam dolorem omnis error, eos, aliquid nemo numquam quod earum maxime, sit in voluptate esse. Esse voluptatum non sapiente, ullam quia, ipsa doloribus facere obcaecati blanditiis nam veniam repellendus a inventore atque beatae dicta fugit.
+
+                    <div class="icons-img">
+                        <img src="assets/images/html.png" alt="">
+                        <img src="assets/images/css3.png" alt="">
+                        <img src="assets/images/bootstrap.png" alt="">
+                        <img src="assets/images/icons8-javascript-48.png" alt="">
+                        <img src="assets/images/c-program.png" alt="">
+                        <img src="assets/images/c-logo-icon-28402.png" alt="">
+                        <img src="assets/images/ai.jfif" alt="">
+                        <img src="assets/images/photoshop.png" alt="">
+                        <img src="assets/images/microsoft-office-png-logo-4824.png" alt="">
+                        <img src="assets/images/asp.png" alt="">
+                        <img src="assets/images/icons8-database-48.png" alt="">
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 </body>
+<script src="assets/scripts/index.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </html>
